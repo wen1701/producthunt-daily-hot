@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 import pytz
 
 # 创建 OpenAI 客户端实例
-client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
+client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'),base_url=os.getenv('OPENAI_BASE_URL'))
 
 producthunt_client_id = os.getenv('PRODUCTHUNT_CLIENT_ID')
 producthunt_client_secret = os.getenv('PRODUCTHUNT_CLIENT_SECRET')
@@ -39,7 +39,7 @@ class Product:
     def generate_keywords(self) -> str:
         """生成产品的关键词，显示在一行，用逗号分隔"""
         prompt = f"根据以下内容生成适合的中文关键词，用英文逗号分隔开：\n\n产品名称：{self.name}\n\n标语：{self.tagline}\n\n描述：{self.description}"
-        
+
         try:
             response = client.chat.completions.create(
                 model="gpt-4o-mini",
@@ -183,7 +183,7 @@ def generate_markdown(products, date_str):
 
     # 修改文件保存路径到 data 目录
     file_name = f"data/PH-daily-{date_str}.md"
-    
+
     # 如果文件存在，直接覆盖
     with open(file_name, 'w', encoding='utf-8') as file:
         file.write(markdown_content)

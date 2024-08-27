@@ -26,6 +26,7 @@ jobs:
     - name: Generate Markdown
       env:
         OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
         PRODUCTHUNT_CLIENT_ID: ${{ secrets.PRODUCTHUNT_CLIENT_ID }}
         PRODUCTHUNT_CLIENT_SECRET: ${{ secrets.PRODUCTHUNT_CLIENT_SECRET }}
       run: |
