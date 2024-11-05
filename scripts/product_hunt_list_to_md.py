@@ -8,7 +8,11 @@ import pytz
 # 创建 OpenAI 客户端实例
 client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'),base_url=os.getenv('OPENAI_BASE_URL'))
 
+
+print(os.getenv('OPENAI_BASE_URL'))
 producthunt_client_id = os.getenv('PRODUCTHUNT_CLIENT_ID')
+
+
 producthunt_client_secret = os.getenv('PRODUCTHUNT_CLIENT_SECRET')
 
 class Product:
