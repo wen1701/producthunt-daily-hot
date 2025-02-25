@@ -39,7 +39,7 @@
 ![Carousel Studio]()
 
 **关键词**：无关键词
-**票数**: 🔺416
+**票数**: 🔺417
 **是否精选**：是
 **发布时间**：2025年02月24日 PM04:01 (北京时间)
 
@@ -435,13 +435,13 @@
 
 ---
 
-## [30. MyBreath](https://www.producthunt.com/posts/mybreath?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+dailyhot+%28ID%3A+133367%29)
-**标语**：Relax and unwind
-**介绍**：🌿 MyBreath — Your go-to platform for breathing & meditation 🌟 Relax and release stress completely! Feel deep relaxation and inner peace through mindful breathing 💆‍♀️💙 Find calm, let go of tension, and recharge your energy here ✨
-**产品网站**: [立即访问](https://www.producthunt.com/r/BYU4XUDAGKVAEQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+dailyhot+%28ID%3A+133367%29)
-**Product Hunt**: [View on Product Hunt](https://www.producthunt.com/posts/mybreath?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+dailyhot+%28ID%3A+133367%29)
+## [30. Asthma Friend ](https://www.producthunt.com/posts/asthma-friend?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+dailyhot+%28ID%3A+133367%29)
+**标语**：Breathe Easier, Together 
+**介绍**：Asthma Friend is your go-to platform for asthma care, offering blogs, podcasts, and a supportive community. Get practical tips, real-life experiences, and reliable insights to manage asthma better. Join us and breathe easier every day.
+**产品网站**: [立即访问](https://www.producthunt.com/r/AKWBS6C2IZ2GMT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+dailyhot+%28ID%3A+133367%29)
+**Product Hunt**: [View on Product Hunt](https://www.producthunt.com/posts/asthma-friend?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+dailyhot+%28ID%3A+133367%29)
 
-![MyBreath]()
+![Asthma Friend ]()
 
 **关键词**：无关键词
 **票数**: 🔺15
